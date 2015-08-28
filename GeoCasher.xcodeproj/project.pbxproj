@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612EECF31B901FBC005BB92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EECF21B901FBC005BB92A /* AppDelegate.swift */; };
+		612EECF51B901FBC005BB92A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EECF41B901FBC005BB92A /* ViewController.swift */; };
+		612EECF81B901FBC005BB92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612EECF61B901FBC005BB92A /* Main.storyboard */; };
+		612EECFA1B901FBC005BB92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612EECF91B901FBC005BB92A /* Assets.xcassets */; };
+		612EECFD1B901FBC005BB92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612EECFB1B901FBC005BB92A /* LaunchScreen.storyboard */; };
+		612EED081B901FBC005BB92A /* GeoCasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EED071B901FBC005BB92A /* GeoCasherTests.swift */; };
+		612EED131B901FBC005BB92A /* GeoCasherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EED121B901FBC005BB92A /* GeoCasherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		612EED041B901FBC005BB92A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 612EECE71B901FBB005BB92A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 612EECEE1B901FBB005BB92A;
+			remoteInfo = GeoCasher;
+		};
+		612EED0F1B901FBC005BB92A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 612EECE71B901FBB005BB92A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 612EECEE1B901FBB005BB92A;
+			remoteInfo = GeoCasher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		612EECEF1B901FBC005BB92A /* GeoCasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		612EECF21B901FBC005BB92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		612EECF41B901FBC005BB92A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		612EECF71B901FBC005BB92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		612EECF91B901FBC005BB92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		612EECFC1B901FBC005BB92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		612EECFE1B901FBC005BB92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612EED031B901FBC005BB92A /* GeoCasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCasherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		612EED071B901FBC005BB92A /* GeoCasherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCasherTests.swift; sourceTree = "<group>"; };
+		612EED091B901FBC005BB92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612EED0E1B901FBC005BB92A /* GeoCasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCasherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		612EED121B901FBC005BB92A /* GeoCasherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCasherUITests.swift; sourceTree = "<group>"; };
+		612EED141B901FBC005BB92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		612EECEC1B901FBB005BB92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612EED001B901FBC005BB92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612EED0B1B901FBC005BB92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612EECE61B901FBB005BB92A = {
+			isa = PBXGroup;
+			children = (
+				612EECF11B901FBC005BB92A /* GeoCasher */,
+				612EED061B901FBC005BB92A /* GeoCasherTests */,
+				612EED111B901FBC005BB92A /* GeoCasherUITests */,
+				612EECF01B901FBC005BB92A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		612EECF01B901FBC005BB92A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612EECEF1B901FBC005BB92A /* GeoCasher.app */,
+				612EED031B901FBC005BB92A /* GeoCasherTests.xctest */,
+				612EED0E1B901FBC005BB92A /* GeoCasherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		612EECF11B901FBC005BB92A /* GeoCasher */ = {
+			isa = PBXGroup;
+			children = (
+				612EECF21B901FBC005BB92A /* AppDelegate.swift */,
+				612EECF41B901FBC005BB92A /* ViewController.swift */,
+				612EECF61B901FBC005BB92A /* Main.storyboard */,
+				612EECF91B901FBC005BB92A /* Assets.xcassets */,
+				612EECFB1B901FBC005BB92A /* LaunchScreen.storyboard */,
+				612EECFE1B901FBC005BB92A /* Info.plist */,
+			);
+			path = GeoCasher;
+			sourceTree = "<group>";
+		};
+		612EED061B901FBC005BB92A /* GeoCasherTests */ = {
+			isa = PBXGroup;
+			children = (
+				612EED071B901FBC005BB92A /* GeoCasherTests.swift */,
+				612EED091B901FBC005BB92A /* Info.plist */,
+			);
+			path = GeoCasherTests;
+			sourceTree = "<group>";
+		};
+		612EED111B901FBC005BB92A /* GeoCasherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				612EED121B901FBC005BB92A /* GeoCasherUITests.swift */,
+				612EED141B901FBC005BB92A /* Info.plist */,
+			);
+			path = GeoCasherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		612EECEE1B901FBB005BB92A /* GeoCasher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612EED171B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasher" */;
+			buildPhases = (
+				612EECEB1B901FBB005BB92A /* Sources */,
+				612EECEC1B901FBB005BB92A /* Frameworks */,
+				612EECED1B901FBB005BB92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCasher;
+			productName = GeoCasher;
+			productReference = 612EECEF1B901FBC005BB92A /* GeoCasher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		612EED021B901FBC005BB92A /* GeoCasherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612EED1A1B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasherTests" */;
+			buildPhases = (
+				612EECFF1B901FBC005BB92A /* Sources */,
+				612EED001B901FBC005BB92A /* Frameworks */,
+				612EED011B901FBC005BB92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				612EED051B901FBC005BB92A /* PBXTargetDependency */,
+			);
+			name = GeoCasherTests;
+			productName = GeoCasherTests;
+			productReference = 612EED031B901FBC005BB92A /* GeoCasherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		612EED0D1B901FBC005BB92A /* GeoCasherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612EED1D1B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasherUITests" */;
+			buildPhases = (
+				612EED0A1B901FBC005BB92A /* Sources */,
+				612EED0B1B901FBC005BB92A /* Frameworks */,
+				612EED0C1B901FBC005BB92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				612EED101B901FBC005BB92A /* PBXTargetDependency */,
+			);
+			name = GeoCasherUITests;
+			productName = GeoCasherUITests;
+			productReference = 612EED0E1B901FBC005BB92A /* GeoCasherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		612EECE71B901FBB005BB92A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Ziewvater;
+				TargetAttributes = {
+					612EECEE1B901FBB005BB92A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					612EED021B901FBC005BB92A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 612EECEE1B901FBB005BB92A;
+					};
+					612EED0D1B901FBC005BB92A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 612EECEE1B901FBB005BB92A;
+					};
+				};
+			};
+			buildConfigurationList = 612EECEA1B901FBB005BB92A /* Build configuration list for PBXProject "GeoCasher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 612EECE61B901FBB005BB92A;
+			productRefGroup = 612EECF01B901FBC005BB92A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				612EECEE1B901FBB005BB92A /* GeoCasher */,
+				612EED021B901FBC005BB92A /* GeoCasherTests */,
+				612EED0D1B901FBC005BB92A /* GeoCasherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		612EECED1B901FBB005BB92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612EECFD1B901FBC005BB92A /* LaunchScreen.storyboard in Resources */,
+				612EECFA1B901FBC005BB92A /* Assets.xcassets in Resources */,
+				612EECF81B901FBC005BB92A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612EED011B901FBC005BB92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612EED0C1B901FBC005BB92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		612EECEB1B901FBB005BB92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612EECF51B901FBC005BB92A /* ViewController.swift in Sources */,
+				612EECF31B901FBC005BB92A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612EECFF1B901FBC005BB92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612EED081B901FBC005BB92A /* GeoCasherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612EED0A1B901FBC005BB92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612EED131B901FBC005BB92A /* GeoCasherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		612EED051B901FBC005BB92A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 612EECEE1B901FBB005BB92A /* GeoCasher */;
+			targetProxy = 612EED041B901FBC005BB92A /* PBXContainerItemProxy */;
+		};
+		612EED101B901FBC005BB92A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 612EECEE1B901FBB005BB92A /* GeoCasher */;
+			targetProxy = 612EED0F1B901FBC005BB92A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		612EECF61B901FBC005BB92A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612EECF71B901FBC005BB92A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		612EECFB1B901FBC005BB92A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612EECFC1B901FBC005BB92A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		612EED151B901FBC005BB92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		612EED161B901FBC005BB92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		612EED181B901FBC005BB92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoCasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziewvater.GeoCasher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		612EED191B901FBC005BB92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoCasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziewvater.GeoCasher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		612EED1B1B901FBC005BB92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoCasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziewvater.GeoCasherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoCasher.app/GeoCasher";
+			};
+			name = Debug;
+		};
+		612EED1C1B901FBC005BB92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoCasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziewvater.GeoCasherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoCasher.app/GeoCasher";
+			};
+			name = Release;
+		};
+		612EED1E1B901FBC005BB92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoCasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziewvater.GeoCasherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoCasher;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		612EED1F1B901FBC005BB92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoCasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziewvater.GeoCasherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoCasher;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		612EECEA1B901FBB005BB92A /* Build configuration list for PBXProject "GeoCasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612EED151B901FBC005BB92A /* Debug */,
+				612EED161B901FBC005BB92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612EED171B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612EED181B901FBC005BB92A /* Debug */,
+				612EED191B901FBC005BB92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		612EED1A1B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612EED1B1B901FBC005BB92A /* Debug */,
+				612EED1C1B901FBC005BB92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		612EED1D1B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612EED1E1B901FBC005BB92A /* Debug */,
+				612EED1F1B901FBC005BB92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 612EECE71B901FBB005BB92A /* Project object */;
+}
