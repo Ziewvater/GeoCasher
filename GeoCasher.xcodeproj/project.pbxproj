@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2168F97E02B09330A926E7 /* Pods_GeoCasher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8721BB2174BA71BE1322940D /* Pods_GeoCasher.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		612EECF31B901FBC005BB92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EECF21B901FBC005BB92A /* AppDelegate.swift */; };
 		612EECF51B901FBC005BB92A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EECF41B901FBC005BB92A /* ViewController.swift */; };
-		612EECF81B901FBC005BB92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612EECF61B901FBC005BB92A /* Main.storyboard */; };
 		612EECFA1B901FBC005BB92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612EECF91B901FBC005BB92A /* Assets.xcassets */; };
 		612EECFD1B901FBC005BB92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612EECFB1B901FBC005BB92A /* LaunchScreen.storyboard */; };
 		612EED081B901FBC005BB92A /* GeoCasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EED071B901FBC005BB92A /* GeoCasherTests.swift */; };
@@ -34,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50AEB9053D732FAB9FEC9D5B /* Pods-GeoCasher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoCasher.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoCasher/Pods-GeoCasher.release.xcconfig"; sourceTree = "<group>"; };
 		612EECEF1B901FBC005BB92A /* GeoCasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		612EECF21B901FBC005BB92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		612EECF41B901FBC005BB92A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		612EECF71B901FBC005BB92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		612EECF91B901FBC005BB92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		612EECFC1B901FBC005BB92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		612EECFE1B901FBC005BB92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		612EED0E1B901FBC005BB92A /* GeoCasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCasherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		612EED121B901FBC005BB92A /* GeoCasherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCasherUITests.swift; sourceTree = "<group>"; };
 		612EED141B901FBC005BB92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8721BB2174BA71BE1322940D /* Pods_GeoCasher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoCasher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22D0B28961896528669887D /* Pods-GeoCasher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoCasher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoCasher/Pods-GeoCasher.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2168F97E02B09330A926E7 /* Pods_GeoCasher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37E0E830B9DE6A3FF963CB9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D22D0B28961896528669887D /* Pods-GeoCasher.debug.xcconfig */,
+				50AEB9053D732FAB9FEC9D5B /* Pods-GeoCasher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		612EECE61B901FBB005BB92A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,8 @@
 				612EED061B901FBC005BB92A /* GeoCasherTests */,
 				612EED111B901FBC005BB92A /* GeoCasherUITests */,
 				612EECF01B901FBC005BB92A /* Products */,
+				37E0E830B9DE6A3FF963CB9B /* Pods */,
+				E3A02075DE680534165F30C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +113,6 @@
 			children = (
 				612EECF21B901FBC005BB92A /* AppDelegate.swift */,
 				612EECF41B901FBC005BB92A /* ViewController.swift */,
-				612EECF61B901FBC005BB92A /* Main.storyboard */,
 				612EECF91B901FBC005BB92A /* Assets.xcassets */,
 				612EECFB1B901FBC005BB92A /* LaunchScreen.storyboard */,
 				612EECFE1B901FBC005BB92A /* Info.plist */,
@@ -125,6 +138,14 @@
 			path = GeoCasherUITests;
 			sourceTree = "<group>";
 		};
+		E3A02075DE680534165F30C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8721BB2174BA71BE1322940D /* Pods_GeoCasher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 612EED171B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasher" */;
 			buildPhases = (
+				BD8908B59F56454AE3894D4C /* Check Pods Manifest.lock */,
 				612EECEB1B901FBB005BB92A /* Sources */,
 				612EECEC1B901FBB005BB92A /* Frameworks */,
 				612EECED1B901FBB005BB92A /* Resources */,
+				2EF41FED0E023C516B91E7A4 /* Embed Pods Frameworks */,
+				ACED1145D2DF13816AF1FC04 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +211,7 @@
 		612EECE71B901FBB005BB92A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Ziewvater;
 				TargetAttributes = {
@@ -230,7 +255,6 @@
 			files = (
 				612EECFD1B901FBC005BB92A /* LaunchScreen.storyboard in Resources */,
 				612EECFA1B901FBC005BB92A /* Assets.xcassets in Resources */,
-				612EECF81B901FBC005BB92A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +273,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF41FED0E023C516B91E7A4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoCasher/Pods-GeoCasher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACED1145D2DF13816AF1FC04 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoCasher/Pods-GeoCasher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8908B59F56454AE3894D4C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		612EECEB1B901FBB005BB92A /* Sources */ = {
@@ -292,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		612EECF61B901FBC005BB92A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				612EECF71B901FBC005BB92A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		612EECFB1B901FBC005BB92A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -394,6 +458,7 @@
 		};
 		612EED181B901FBC005BB92A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22D0B28961896528669887D /* Pods-GeoCasher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoCasher/Info.plist;
@@ -405,6 +470,7 @@
 		};
 		612EED191B901FBC005BB92A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AEB9053D732FAB9FEC9D5B /* Pods-GeoCasher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeoCasher/Info.plist;
@@ -481,6 +547,7 @@
 				612EED191B901FBC005BB92A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		612EED1A1B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasherTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +556,7 @@
 				612EED1C1B901FBC005BB92A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		612EED1D1B901FBC005BB92A /* Build configuration list for PBXNativeTarget "GeoCasherUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +565,7 @@
 				612EED1F1B901FBC005BB92A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
