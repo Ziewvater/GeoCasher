@@ -14,6 +14,7 @@
 		612EECFD1B901FBC005BB92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612EECFB1B901FBC005BB92A /* LaunchScreen.storyboard */; };
 		612EED081B901FBC005BB92A /* GeoCasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EED071B901FBC005BB92A /* GeoCasherTests.swift */; };
 		612EED131B901FBC005BB92A /* GeoCasherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EED121B901FBC005BB92A /* GeoCasherUITests.swift */; };
+		61AD7AD01B904AAB003C8387 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD7ACF1B904AAB003C8387 /* ImageFetcher.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		612EED0E1B901FBC005BB92A /* GeoCasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCasherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		612EED121B901FBC005BB92A /* GeoCasherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCasherUITests.swift; sourceTree = "<group>"; };
 		612EED141B901FBC005BB92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61AD7ACF1B904AAB003C8387 /* ImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		8721BB2174BA71BE1322940D /* Pods_GeoCasher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoCasher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22D0B28961896528669887D /* Pods-GeoCasher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoCasher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoCasher/Pods-GeoCasher.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 		612EECF11B901FBC005BB92A /* GeoCasher */ = {
 			isa = PBXGroup;
 			children = (
+				61AD7AD11B904AB1003C8387 /* Model */,
 				612EECF21B901FBC005BB92A /* AppDelegate.swift */,
 				612EECF41B901FBC005BB92A /* ViewController.swift */,
 				612EECF91B901FBC005BB92A /* Assets.xcassets */,
@@ -136,6 +139,14 @@
 				612EED141B901FBC005BB92A /* Info.plist */,
 			);
 			path = GeoCasherUITests;
+			sourceTree = "<group>";
+		};
+		61AD7AD11B904AB1003C8387 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61AD7ACF1B904AAB003C8387 /* ImageFetcher.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E3A02075DE680534165F30C6 /* Frameworks */ = {
@@ -328,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				612EECF51B901FBC005BB92A /* ViewController.swift in Sources */,
+				61AD7AD01B904AAB003C8387 /* ImageFetcher.swift in Sources */,
 				612EECF31B901FBC005BB92A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
