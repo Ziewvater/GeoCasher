@@ -51,6 +51,7 @@ class TimelineViewController: UIViewController {
             make.left.right.equalTo(view)
         }
         collectionView.dataSource = self
+        collectionView.delegate = self
         
         collectionView.registerClass(PostCollectionViewCell.self, forCellWithReuseIdentifier: PostCollectionViewCellIdentifier)
     }
@@ -59,11 +60,10 @@ class TimelineViewController: UIViewController {
         super.viewDidLoad()
         
         ImageFetcher.fetchPosts({ [weak self] (posts: [Post]) in
-            NSLog("post count: \(posts.count)")
             self?.posts = posts
             self?.collectionView.reloadData()
             }, errorHandler: { (error) in
-                NSLog("Error: \(error)")
+                NSLog("Error fetching posts: \(error)")
         })
     }
     
@@ -80,6 +80,7 @@ class TimelineViewController: UIViewController {
 }
 
 extension TimelineViewController: UICollectionViewDataSource {
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return posts.count
     }
@@ -91,5 +92,16 @@ extension TimelineViewController: UICollectionViewDataSource {
         let post = posts[indexPath.item]
         cell.setUpWithPost(post)
         return cell
+    }
+}
+
+extension TimelineViewController: UICollectionViewDelegate {
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let post = posts[indexPath.item]
+        let postLocationVC = PostLocationViewController()
+        postLocationVC.post = post
+        let nav = UINavigationController(rootViewController: postLocationVC)
+        presentViewController(nav, animated: true, completion: nil)
     }
 }

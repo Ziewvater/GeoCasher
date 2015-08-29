@@ -16,6 +16,7 @@
 		612EED131B901FBC005BB92A /* GeoCasherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EED121B901FBC005BB92A /* GeoCasherUITests.swift */; };
 		6134EC841B924091001B4E33 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134EC831B924091001B4E33 /* PostCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		61AD7AD01B904AAB003C8387 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD7ACF1B904AAB003C8387 /* ImageFetcher.swift */; settings = {ASSET_TAGS = (); }; };
+		61F94FF51B925AD8009CEC86 /* PostLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F94FF41B925AD8009CEC86 /* PostLocationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		612EED141B901FBC005BB92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6134EC831B924091001B4E33 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 		61AD7ACF1B904AAB003C8387 /* ImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		61F94FF41B925AD8009CEC86 /* PostLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostLocationViewController.swift; sourceTree = "<group>"; };
 		8721BB2174BA71BE1322940D /* Pods_GeoCasher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoCasher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22D0B28961896528669887D /* Pods-GeoCasher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoCasher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoCasher/Pods-GeoCasher.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 		619C79821B923C0A0002408A /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				61F94FF41B925AD8009CEC86 /* PostLocationViewController.swift */,
 				612EECF41B901FBC005BB92A /* TimelineViewController.swift */,
 			);
 			path = "View Controller";
@@ -360,6 +363,7 @@
 				6134EC841B924091001B4E33 /* PostCollectionViewCell.swift in Sources */,
 				61AD7AD01B904AAB003C8387 /* ImageFetcher.swift in Sources */,
 				612EECF51B901FBC005BB92A /* TimelineViewController.swift in Sources */,
+				61F94FF51B925AD8009CEC86 /* PostLocationViewController.swift in Sources */,
 				612EECF31B901FBC005BB92A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
