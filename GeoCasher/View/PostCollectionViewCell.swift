@@ -29,6 +29,7 @@ class PostCollectionViewCell: UICollectionViewCell {
             make.edges.equalTo(self)
         }
         self.imageView = imageView
+        showPlaceholderThumbnail()
         
         let nameLabel = UILabel()
         nameLabel.font = UIFont.systemFontOfSize(14) // Made size 14 instead of 10 for legibility. 10 was too small, seemed out of place
@@ -54,15 +55,22 @@ class PostCollectionViewCell: UICollectionViewCell {
     }
     
     override func prepareForReuse() {
-        imageView.image = nil
+        showPlaceholderThumbnail()
     }
     
     // MARK: - View setup
     
+    func showPlaceholderThumbnail() {
+        imageView.image = UIImage(named: "PlaceholderIcon")
+    }
+    
     func setUpWithPost(post: Post) {
         locationNameLabel.text = post.location.name
         Alamofire.request(.GET, post.imageURL).response { [weak self] (request, response, data, error) in
-                self?.imageView.image = UIImage(data: data!, scale:1)
+            guard let data = data else {
+                return
+            }
+            self?.imageView.image = UIImage(data: data, scale:1)
         }
     }
 }
