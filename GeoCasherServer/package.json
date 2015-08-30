@@ -1,0 +1,20 @@
+{
+  "name": "geocasherserver",
+  "version": "1.0.0",
+  "description": "A random feed of images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geocasher",
+    "photos",
+    "locations"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^9.0.3",
+    "inert": "^3.0.1"
+  }
+}
