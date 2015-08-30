@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (2.0.0-beta.3)
+  - SnapKit (0.13.0)
+  - SwiftyJSON (2.2.1)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift-2.0`)
+  - SnapKit (from `https://github.com/SnapKit/SnapKit`, branch `swift-2.0`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON`, branch `xcode7`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: swift-2.0
+    :git: https://github.com/Alamofire/Alamofire.git
+  SnapKit:
+    :branch: swift-2.0
+    :git: https://github.com/SnapKit/SnapKit
+  SwiftyJSON:
+    :branch: xcode7
+    :git: https://github.com/SwiftyJSON/SwiftyJSON
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 0fd77fec2a33e237ab99069c36410eb7101126c6
+    :git: https://github.com/Alamofire/Alamofire.git
+  SnapKit:
+    :commit: 4f19419528baa3dfaca20e26fea2be410ddc79e2
+    :git: https://github.com/SnapKit/SnapKit
+  SwiftyJSON:
+    :commit: f269523ac572979245baa99c8475eab73caf1e9b
+    :git: https://github.com/SwiftyJSON/SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 39dddb7d3725d1771b1d2f7099c8bd45bd83ffbb
+  SnapKit: 69fe274c71511df89a5591c11437a8b826bfa9eb
+  SwiftyJSON: ae2d0a3d68025d136602a33c4ee215091ced3e33
+
+COCOAPODS: 0.38.2
