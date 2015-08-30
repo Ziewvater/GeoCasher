@@ -8,16 +8,20 @@
 
 import UIKit
 import SnapKit
+import CoreLocation
 
 let HeaderFontSize: CGFloat = 14
 let PostCollectionViewCellIdentifier = "PostCell"
 
 class TimelineViewController: UIViewController {
-
+    
     var header: UIView!
     var collectionView: UICollectionView!
     
     var posts = [Post]()
+    var askedPermission = false
+    
+    // MARK: - View Controller Lifecycle
     
     override func loadView() {
         super.loadView()
@@ -76,6 +80,33 @@ class TimelineViewController: UIViewController {
                 return
         }
         flowLayout.itemSize = CGSize(width: appWindowWidth, height: appWindowWidth)
+        
+        if !askedPermission {
+            // Only ask permission on first presentation of this view (i.e. app launch)
+            getUserLocation()
+            askedPermission = true
+        }
+    }
+    
+    func getUserLocation() {
+        LocationPermissionHandler.sharedInstance.getCurrentLocationWithPresentationViewController(self) { [weak self] (location) -> Void in
+            // Received location, sort posts based on location and reload images
+            self?.sortPosts()
+            self?.collectionView.reloadData()
+        }
+    }
+    
+    func sortPosts() {
+        guard let currentLocation = LocationPermissionHandler.sharedInstance.location else {
+            NSLog("Cannot sort posts, no location")
+            return
+        }
+        let sortedPosts = posts.sort({ (post1, post2) -> Bool in
+            let distance1 = currentLocation.distanceFromLocation(CLLocation(latitude: post1.location.coordinate.latitude, longitude: post1.location.coordinate.longitude))
+            let distance2 = currentLocation.distanceFromLocation(CLLocation(latitude: post2.location.coordinate.latitude, longitude: post2.location.coordinate.longitude))
+            return distance1 < distance2
+        })
+        self.posts = sortedPosts
     }
 }
 

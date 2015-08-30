@@ -29,6 +29,7 @@ class PostLocationViewController: UIViewController {
             make.edges.equalTo(view)
         }
         map.mapType = .Satellite
+        map.showsUserLocation = (CLLocationManager.authorizationStatus() == .AuthorizedWhenInUse) || (CLLocationManager.authorizationStatus() == .AuthorizedAlways)
         map.setRegion(MKCoordinateRegionMakeWithDistance(post.location.coordinate, DefaultMapDistance, DefaultMapDistance), animated: false)
         let point = MKPointAnnotation()
         point.coordinate = post.location.coordinate
